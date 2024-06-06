@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" href="/demo_war_exploded/css/loginpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/demo_war_exploded/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/demo_war_exploded/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/demo_war_exploded/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/demo_war_exploded/favicon/site.webmanifest">
+</head>
+<body class="font">
+
+<div class="background-video">
+    <video src="/demo_war_exploded/videos/video2.mp4" class="video_media" autoplay muted loop></video>
+</div>
+
+<div class="animated bounceInDown">
+    <div class="container">
+        <img id="img" src="/demo_war_exploded/images/message-dollar.svg" alt="currency">
+        <form name="form1" class="box" action="j_security_check" method="POST">
+            <h4 class="font">Admin<span>Page</span></h4>
+            <h5 class="font">Увійдіть до свого облікового запису</h5>
+            <input type="text" name="j_username" class="font" placeholder="Логін" autocomplete="off">
+            <input type="password" name="j_password" class="font" placeholder="Пароль" id="pwd" autocomplete="off">
+            <input type="submit" value="Надіслати" class="btn1 font">
+            <input type="reset" value="Скинути" class="btn2 font">
+        </form>
+    </div>
+</div>
+</body>
+</html>
